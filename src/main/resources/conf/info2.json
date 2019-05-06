@@ -1,0 +1,75 @@
+[
+    {
+        "inputTableName": "test:test777",
+        "ouputTableName": "test:test777",
+        "info": [
+            {
+                "column": "info:chain",
+                "args": [
+                    {
+                        "type": "extractLoginId",
+                        "newColumnName":"info:login_id"
+                    },
+                    {
+                        "type": "urlPattern",
+                        "newColumnName":"info:url"
+                    }
+                ]
+            },
+            {
+                "column": "info:date",
+                "args": [
+                    {
+                        "type": "DateFormatConversion",
+                        "inputDateFormat":"EEE MMM dd HH:mm:ss 'GMT' yyyy",
+                        "outputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "newColumnName":"info:newDate"
+                    },
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"EEE MMM dd HH:mm:ss 'GMT' yyyy",
+                        "newColumnName":"info:fwz"
+                    }                  
+                ]
+            },
+            {
+                "column": "info:chain1",
+                "args": [
+                    {
+                        "type": "extractLoginId",
+                        "newColumnName":"info:login_id1"
+                    },
+                    {
+                        "type": "urlPattern",
+                        "newColumnName":"info:url"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputTableName": "test:test888",
+        "ouputTableName": "test:test888",
+        "info": [
+            {
+                "column": "info:newDate",
+                "args": [
+                    {
+                        "type": "DateFormatConversion",
+                        "inputDateFormat":"EEE MMM dd HH:mm:ss 'GMT' yyyy",
+                        "outputDateFormat":"yyyy-MM-dd HH:mm:ss"
+                    }                   
+                ]
+            },
+            {
+                "column": "info:chain",
+                "args": [
+                    {
+                        "type": "extractLoginId",
+                        "newColumnName":"info:login_id"
+                    }
+                ]
+            }
+        ]
+    }
+]

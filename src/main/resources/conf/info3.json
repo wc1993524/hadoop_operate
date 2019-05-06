@@ -1,0 +1,26 @@
+[
+    {
+        "inputTableName": "ods_hflow:flow_url",
+        "ouputTableName": "ods_hflow:flow_url",
+        "info": [
+            {
+                "column": "info:url",
+                "args": [
+                    {
+                        "type": "urlPattern",
+                        "newColumnName":"info:sub_url"
+                    }
+                ]
+            },
+            {
+                "column": "info:var",
+                "args": [
+                    {
+                        "type": "extractLoginId",
+                        "newColumnName":"info:login_id"
+                    }
+                ]
+            }
+        ]
+    }
+]

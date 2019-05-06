@@ -1,0 +1,16 @@
+[
+    {
+        "inputTableName": "test1",
+        "ouputTableName": "test1",
+        "info": [
+            {
+                "column": "info:fwz",
+                "args": [
+                    {
+                        "type": "deleteDirtyData"
+                    }
+                ]
+            }
+        ]
+    }
+]

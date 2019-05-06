@@ -1,0 +1,40 @@
+[
+    {
+        "inputTableName": "ods_hflow:flow_url",
+        "ouputTableName": "ods_hflow:flow_url",
+        "info": [
+            {
+                "column": "info:visit_time",
+                "args": [
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "isTimestamp":"true",
+                        "isLong":"true",
+                        "conversionTime":"info:conversion_time",
+                        "newColumnName":"info:fwz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputTableName": "ods_endlog:behaviorlog",
+        "ouputTableName": "ods_endlog:behaviorlog",
+        "info": [
+            {
+                "column": "info:operateTime",
+                "args": [
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "isTimestamp":"true",
+                        "isLong":"false",
+                        "conversionTime":"info:conversion_time",
+                        "newColumnName":"info:fwz"
+                    }
+                ]
+            }
+        ]
+    }
+]

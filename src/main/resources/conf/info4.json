@@ -1,0 +1,194 @@
+[
+    {
+        "inputTableName": "ods_12study:t_jyx_xqfx_ktbxtj",
+        "ouputTableName": "ods_12study:t_jyx_xqfx_ktbxtj",
+        "info": [
+            {
+                "column": "info:sksj",
+                "args": [
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "newColumnName":"info:fwz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputTableName": "ods_12study:t_jyx_xqfx_yxtjtjxx",
+        "ouputTableName": "ods_12study:t_jyx_xqfx_yxtjtjxx",
+        "info": [
+            {
+                "column": "info:yxtjsj",
+                "args": [
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "newColumnName":"info:fwz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputTableName": "ods_12study:t_jyx_xqfx_zytjtjxx",
+        "ouputTableName": "ods_12study:t_jyx_xqfx_zytjtjxx",
+        "info": [
+            {
+                "column": "info:tjrq",
+                "args": [
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "newColumnName":"info:fwz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputTableName": "ods_12study:t_jyx_zyxx_stxx",
+        "ouputTableName": "ods_12study:t_jyx_zyxx_stxx",
+        "info": [
+            {
+                "column": "info:creatertime",
+                "args": [
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "newColumnName":"info:fwz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputTableName": "ods_12study:t_jyx_zyxx_wjzy",
+        "ouputTableName": "ods_12study:t_jyx_zyxx_wjzy",
+        "info": [
+            {
+                "column": "info:creatertime",
+                "args": [
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "newColumnName":"info:fwz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputTableName": "ods_12study:t_jyx_zyxx_ztksj",
+        "ouputTableName": "ods_12study:t_jyx_zyxx_ztksj",
+        "info": [
+            {
+                "column": "info:creatertime",
+                "args": [
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "newColumnName":"info:fwz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputTableName": "ods_12study:t_jyx_zyxx_ztkzw",
+        "ouputTableName": "ods_12study:t_jyx_zyxx_ztkzw",
+        "info": [
+            {
+                "column": "info:creatertime",
+                "args": [
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "newColumnName":"info:fwz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputTableName": "ods_zyzx:t_zyzx_stxxb",
+        "ouputTableName": "ods_zyzx:t_zyzx_stxxb",
+        "info": [
+            {
+                "column": "info:creatertime",
+                "args": [
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "newColumnName":"info:fwz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputTableName": "ods_zyzx:t_zyzx_tob_stxxb_qx",
+        "ouputTableName": "ods_zyzx:t_zyzx_tob_stxxb_qx",
+        "info": [
+            {
+                "column": "info:creatertime",
+                "args": [
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "newColumnName":"info:fwz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputTableName": "ods_zyzx:t_zyzx_tob_zlb_qx",
+        "ouputTableName": "ods_zyzx:t_zyzx_tob_zlb_qx",
+        "info": [
+            {
+                "column": "info:creatertime",
+                "args": [
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "newColumnName":"info:fwz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputTableName": "ods_zyzx:t_zyzx_tob_zyscmxb",
+        "ouputTableName": "ods_zyzx:t_zyzx_tob_zyscmxb",
+        "info": [
+            {
+                "column": "info:creatertime",
+                "args": [
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "newColumnName":"info:fwz"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "inputTableName": "ods_zyzx:t_zyzx_zlb",
+        "ouputTableName": "ods_zyzx:t_zyzx_zlb",
+        "info": [
+            {
+                "column": "info:creatertime",
+                "args": [
+                    {
+                        "type": "computeFwz",
+                        "inputDateFormat":"yyyy-MM-dd HH:mm:ss",
+                        "newColumnName":"info:fwz"
+                    }
+                ]
+            }
+        ]
+    }
+]

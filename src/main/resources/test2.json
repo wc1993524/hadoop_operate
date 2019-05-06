@@ -1,0 +1,23 @@
+{
+ "tab1":{"f1:c1":[
+			{"type":"com.wdcloud.etl.clean.impl.DemoClean","args":"arg1=v1&arg2=v2&arg3=v3"},
+			{"type":"com.wdcloud.etl.clean.impl.DemoClean","args":"arg1=v1&arg2=v2&arg3=v3"}
+		],
+	"f1:c2":
+		[
+			{"type":"com.wdcloud.etl.clean.impl.DemoClean","args":"arg1=v1&arg2=v2&arg3=v3"},
+			{"type":"com.wdcloud.etl.clean.impl.DemoClean","args":"arg1=v1&arg2=v2&arg3=v3"}
+		]
+	}
+,"tab2":{"f1:c1":[
+			{"type":"com.wdcloud.etl.clean.impl.DemoClean","args":"arg1=v1&arg2=v2&arg3=v3"},
+			{"type":"com.wdcloud.etl.clean.impl.DemoClean","args":"arg1=v1&arg2=v2&arg3=v3"}
+		],
+	"f1:c2":
+		[
+			{"type":"com.wdcloud.etl.clean.impl.DemoClean","args":"arg1=v1&arg2=v2&arg3=v3"},
+			{"type":"com.wdcloud.etl.clean.impl.DemoClean","args":"arg1=v1&arg2=v2&arg3=v3"}
+		]
+	}
+	
+}

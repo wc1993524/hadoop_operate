@@ -1,0 +1,16 @@
+[
+    {
+        "inputTableName": "ods_endlog:behaviorlog",
+        "ouputTableName": "ods_endlog:behaviorlog",
+        "info": [
+            {
+                "column": "info:userID",
+                "args": [
+                    {
+                        "type": "deleteDirtyData"
+                    }
+                ]
+            }
+        ]
+    }
+]

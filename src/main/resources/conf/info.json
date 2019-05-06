@@ -1,0 +1,15 @@
+[{
+	"inputTableName":"test:test444",
+	"ouputTableName":"test:test444",
+	"info":[
+	        {"column":"info:date","class":"dateFormat.DateFormatConversion","inputDateFormat":"EEE MMM dd HH:mm:ss 'GMT' yyyy","outputDateFormat":"yyyy-MM-dd HH:mm:ss","newColumnName":"info:newDate6"},
+	        {"column":"info:newDate2","class":"dateFormat.DateFormatConversion","inputDateFormat":"yyyy-MM-dd HH:mm:ss","outputDateFormat":"EEE MMM dd HH:mm:ss 'GMT' yyyy","newColumnName":""}       
+	    ]
+},
+{
+	"inputTableName":"test:test888",
+	"ouputTableName":"test:test888",
+	"info":[
+	        {"column":"info:date","class":"dateFormat.DateFormatConversion","inputDateFormat":"yyyy-MM-dd HH:mm:ss","outputDateFormat":"EEE MMM dd HH:mm:ss 'GMT' yyyy","newColumnName":"info:newDate"}
+	    ]
+}]
